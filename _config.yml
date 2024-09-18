@@ -57,6 +57,42 @@ content:
     layout: list # Type of content section (list/text)
     content:
       - layout: top-middle
+        title: Seismic Safety Startup
+        link: https://stationview.raspberryshake.org/#/?lat=42.81982&lon=75.28019&zoom=8.000&sta=R1B7B
+        link_text: Project Website
+        additional_links:
+          # - title: sproogen/modern-resume-theme
+          #   icon: fab fa-github
+          #   url: github.com/sproogen/modern-resume-theme
+        quote: >
+          A scientific project focused on seismic safety in Kazakhstan and Kyrgyzstan, utilizing earthquake sensors.
+        description: |
+          I participated in a scientific research project that implemented earthquake sensors based on <mark>GlobalQuake</mark> and <mark>RaspberryShake</mark>. My responsibilities included maintaining these sensors on <mark>Linux Raspberry Pi</mark> and leveraging technologies such as <mark>Raspberry Pi</mark>, <mark>Linux ARM</mark>, and <mark>Python</mark> with <mark>Miniconda</mark> for SLA/STA calculation. The project also utilized <mark>InfluxDB</mark> to monitor and manage data from all stations in real-time. Additionally, I configured <mark>GitHub CI</mark> to deploy <mark>Golang</mark> applications to servers that were provisioned and managed with <mark>Ansible</mark>.
+      - layout: top-middle
+        title: skhalyk.kz
+        link: https://skhalyk.kz
+        link_text: Project Website
+        additional_links:
+          # - title: sproogen/modern-resume-theme
+          #   icon: fab fa-github
+          #   url: github.com/sproogen/modern-resume-theme
+        quote: >
+          skhalyk.kz - A popular insurance service in Kazakhstan.
+        description: |
+          The project utilized microservices built with <mark>PHP (Laravel)</mark>, <mark>Nuxt</mark>, and <mark>Webview</mark>, deployed on <mark>K8S</mark> using manifests. The primary objective was to assist in designing infrastructure for the DevOps team of the bank, based on their OnPremise <mark>RancherOS</mark>. The technology stack included <mark>RabbitMQ</mark>, <mark>Redis</mark>, <mark>Nginx</mark> as Load Balancer and Proxy, <mark>Nginx ingress</mark> in K8S based on RancherOS, and Dockerfiles. Additional responsibilities involved tuning <mark>PHP opcache</mark> for high load scenarios and conducting <mark>load testing</mark>.
+      - layout: top-middle
+        title: kino.kz
+        link: https://kino.kz
+        link_text: Project Website
+        additional_links:
+          # - title: sproogen/modern-resume-theme
+          #   icon: fab fa-github
+          #   url: github.com/sproogen/modern-resume-theme
+        quote: >
+          kino.kz - One of the oldest cinema listings services in Kazakhstan, Kino.kz offers tickets for movie screenings, concerts, theater performances, music festivals, sporting events, and travel tours in 27 cities across the country. The platform provides cinema tickets in 41 cities, making it one of the most prominent ticketing services in Kazakhstan.
+        description: |
+          The technology stack for the project consists of <mark>S3</mark>, <mark>PostgreSQL</mark>, <mark>K8S</mark>, <mark>Prometheus</mark>, <mark>Golang</mark>, <mark>Next.js</mark>, <mark>React</mark>, microservices based on <mark>HTTP/gRPC</mark> with <mark>Istio</mark>, <mark>Redis</mark>, <mark>Kafka</mark>, <mark>GitLab CI/CD</mark>, <mark>Harbor</mark>, and <mark>ArgoCD</mark>.
+      - layout: top-middle
         title: osi.kz
         link: https://osi.kz
         link_text: Project Website
@@ -68,6 +104,18 @@ content:
           OSI.kz is a Kazakhstan digital platform for self-management of housing and communal services.
         description: | # this will include new lines to allow paragraphs
           One of the latest and most interesting projects in which I took part. The technology stack consists of <mark>Linux</mark> <mark>GitLab CI/CD</mark> <mark>Nexus</mark> <mark>Docker</mark> <mark>K8S</mark> <mark>K3S</mark> <mark>HAProxy</mark> <mark>PostgreSQL</mark> with <mark>Patroni</mark> for <mark>HA</mark>, <mark>Prometheus</mark> <mark>Grafana</mark> <mark>Redis</mark> <mark>MinIO</mark> <mark>OpenStack</mark> <mark>Ansible</mark> <mark>Terraform</mark>.
+      - layout: top-middle
+        title: portal.bazis.kz
+        link: https://portal.bazis.kz
+        link_text: Project Website
+        additional_links:
+          # - title: sproogen/modern-resume-theme
+          #   icon: fab fa-github
+          #   url: github.com/sproogen/modern-resume-theme
+        quote: >
+          BAZIS-A - One of the largest construction companies in Kazakhstan, this is a procurement and tenders portal for their services.
+        description: |
+          The client chose a minimal architecture based on OnPremise virtual machines and a monolithic setup split between <mark>Nuxt</mark> and <mark>Laravel</mark> for the backend/admin panel. The tasks included deploying virtual machines on <mark>Ubuntu 22.04</mark>, configuring <mark>PostgreSQL</mark> with backups on a separate disk, setting up <mark>Redis</mark>, <mark>WebSockets</mark>, and configuring notifications via <mark>Nginx</mark> for Laravel. The project also involved setting up <mark>GitLab CI/CD</mark> pipelines using <mark>Deployer</mark> and <mark>PM2</mark> to reduce overhead from Docker Engine on the host system. Additional responsibilities involved installing <mark>Kaspersky antivirus</mark> for OS security, setting up a proxy server for traffic filtering, and ensuring communication with the Ops team.
       - layout: top-middle
         title: bankrbk.kz 
         link: https://bankrbk.kz
